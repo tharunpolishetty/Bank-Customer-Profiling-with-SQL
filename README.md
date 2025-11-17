@@ -1,63 +1,51 @@
-# ✈️ Air Traffic Insights
-
+# 🏦 Bank Customer Profiling with SQL
 ## 📘 Overview
-This project performs an in-depth **Exploratory Data Analysis (EDA)** on airline flight data to uncover key insights about flight delays, airline performance, and travel patterns.  
-It leverages Python-based data analysis and visualization tools to help understand trends, correlations, and operational metrics across airlines and routes.
+This project focuses on analyzing **bank customer and account data** using **SQL** and **Python (Jupyter Notebook)**.  
+It demonstrates the design of relational database tables, data insertion, and execution of advanced SQL queries to derive insights on customer behavior, transactions, and account relationships.
 
 ---
 
-## 🧠 Objectives
-- Analyze flight delays and cancellations.
-- Identify top-performing airlines and routes.
-- Visualize patterns in departure and arrival times.
-- Derive insights from seasonal and temporal trends.
+## 🎯 Objectives
+- Create and manage bank-related database tables.
+- Perform SQL queries to analyze account balances, transactions, and customer relationships.
+- Join multiple tables to extract meaningful insights.
+- Explore data consistency and linkage across multiple relational tables.
 
 ---
 
-## 🛠️ Tech Stack
-| Category | Tools & Libraries |
-|-----------|------------------|
-| Programming Language | Python |
-| Data Analysis | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn |
-| Development | Jupyter Notebook |
+## 🧠 Key Topics Covered
+- **Database Design & Normalization**
+- **Data Insertion & Manipulation**
+- **Joins, Aggregations, and Filtering**
+- **Date-based Transaction Analysis**
+- **Account Relationship Mapping**
 
 ---
 
-## 📂 Project Structure
-Airlines_Flights_DA/
-│
-├── Airlines_Flights_DA.ipynb # Jupyter Notebook with full analysis
-├── README.md # Project documentation
-├── data/ # Dataset (if applicable)
-└── images/ # Visualizations or plots (optional)
+## 💡 SQL Analysis Questions
+The project explores multiple SQL query scenarios, such as:
+1. Calculate average account balance per customer.  
+2. Substitute missing balance amounts using credit card transactions.  
+3. Retrieve transactions during March–April 2020.  
+4. Exclude specific months from analysis.  
+5. Identify first-quarter transactions.  
+6. Display messages for customers with “SAVINGS” accounts.  
+7. Deduct negative transactions from balances (for Primary relationships).  
+8–11. Explore account linkages, transaction rollups, and cross-linked summaries.
 
-## 📈 Key Insights (Example)
+---
 
-Most flight delays occur during evening hours.
+## 🧩 Tools & Technologies
+| Category | Tools |
+|-----------|-------|
+| Database | MySQL / SQL |
+| Programming | Python |
+| IDE | Jupyter Notebook |
+| Libraries | pandas, sqlite3, matplotlib (if used) |
 
-Weather and traffic at major airports significantly impact delays.
+---
 
-Certain airlines maintain consistent on-time performance across routes.
-
-Average delay time shows strong correlation with flight distance.
-
-## 🖼️ Visualizations
-
-Includes graphical insights using Matplotlib and Seaborn:
-
-Distribution of flight delays
-
-Airline-wise comparison of delays
-
-Monthly/seasonal trends
-
-Correlation heatmaps
-
-## 🚀 Future Work
-
-Predict flight delays using machine learning models.
-
-Integrate live flight data via APIs.
-
-Build a Power BI dashboard for interactive analysis.
+## 🚀 Future Enhancements
+- Integrate Power BI or Tableau for data visualization.
+- Build an API to fetch and update customer transactions dynamically.
+- Implement predictive analytics for customer balance forecasting.
